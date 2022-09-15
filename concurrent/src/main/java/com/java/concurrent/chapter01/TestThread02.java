@@ -29,6 +29,8 @@ public class TestThread02 implements Runnable{
     }
 
     public static void main(String[] args) {
+//        Runnable task1 = () -> log.debug("lambda创建Runnable");
+
         TestThread02 testThread01 = new TestThread02();
         TestThread02 testThread02 = new TestThread02();
         TestThread02 testThread03 = new TestThread02();
