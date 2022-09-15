@@ -2,9 +2,9 @@ package com.java.algorithm.trainingcamp002.class05;
 
 import java.util.TreeMap;
 
-import class05.Code01_AVLTreeMap.AVLTreeMap;
-import class05.Code01_SizeBalancedTreeMap.SizeBalancedTreeMap;
-import class05.Code03_SkipListMap.SkipListMap;
+import com.java.algorithm.trainingcamp002.class05.Code03_SkipListMap.SkipListMap;
+import com.java.algorithm.trainingcamp002.class05.Code01_AVLTreeMap.AVLTreeMap;
+import com.java.algorithm.trainingcamp002.class05.Code01_SizeBalancedTreeMap.SizeBalancedTreeMap;
 
 // 本文件为avl、sbt、skiplist三种结构的测试文件
 public class Compare {
