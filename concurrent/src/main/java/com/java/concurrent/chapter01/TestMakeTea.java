@@ -9,7 +9,7 @@ public class TestMakeTea {
 
 
     public static void main(String[] args) {
-        S3.makeTea();
+        S2.makeTea();
     }
 
     private static void s1() {
@@ -40,7 +40,7 @@ public class TestMakeTea {
     }
 }
 
-@Slf4j(topic = "c.S2")
+@Slf4j(topic = "logger.S2")
 class S2 {
     static String kettle = "冷水";
     static String tea = null;
@@ -96,7 +96,7 @@ class S2 {
     }
 }
 
-@Slf4j(topic = "c.S3")
+@Slf4j(topic = "logger.S3")
 class S3 {
     static String kettle = "冷水";
     static String tea = null;
